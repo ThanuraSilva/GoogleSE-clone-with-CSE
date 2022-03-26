@@ -45,6 +45,7 @@ header{
 }
 header a{
     color: rgba(0,0,0,0.87);
+    font-family: Arial, sans-serif;
     
 }
 header #sign-in{
@@ -90,9 +91,11 @@ main {
 }
 
 main #logo-wrapper {
+    margin-top: 160px;
     height: 110px;
     display: flex;
     align-items: center;
+    
 }
 main #form-wrapper{
     width: 100%;
@@ -118,7 +121,14 @@ main form #search-wrapper:hover{
 main form #search-wrapper #icon-search{
    padding: 0 14px;
  
- }
+}
+
+main form #search-wrapper svg{
+    width: 20px;
+    height: 20px;
+    fill: #9aa0a6;
+}
+
 
 main form #search-wrapper input{
     width: 100%;
@@ -162,7 +172,59 @@ main #offer-wrapper a{
     padding: 0 2px;
 }
 /* ==Footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #70757a;
+    background-color:#f2f2f2 ;
+}
+
+
+footer #country{
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    font-family: Arial, sans-serif;
+}
+footer #links{
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer #links > div{
+    display: flex;
+    justify-content: center;
+}
+footer #links > div:first-child{
+    flex-wrap: wrap;
+}
+footer #links > div a{
+    padding: 15px;
+    color: inherit;
+    font-family: Arial, sans-serif;
+}
+
 
 /* ==Key Frames */
 
 /* ==Media Queries */
+@media all and (max-width: 419px){
+    header{
+        justify-content: center;
+    }
+ }
+ 
+ @media all and (max-width: 664px){
+     footer #links{
+        justify-content: center;
+     }
+ }
+ 
+ @media all and (max-width: 1200px){
+    footer #links > div{
+        justify-content: space-evenly;
+    }
+}
