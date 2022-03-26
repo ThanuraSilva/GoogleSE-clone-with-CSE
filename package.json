@@ -1,0 +1,14 @@
+{
+  "name": "google-cse",
+  "version": "1.0.0",
+  "description": "This is a experimantal project of clone google se with embedded their cse.This projrct done as an education purpose and all the trademarks,logos of applied here are owned to their original owners",
+  "main": "index.js",
+  "keywords": [
+    "google,cse"
+  ],
+  "author": "Thanura Silva - DEP08-IJSE",
+  "license": "MIT",
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
+}

@@ -1,0 +1,86 @@
+/* 
+*Copyright 2022 Thanura Silva- DEP08.All rights reserved
+*This project is licensed under MIT Licience.
+*Please find the licience file in the root directory.
+*
+*style.css
+*
+*Author - Thanura Silva <>
+*/
+
+/* ==Base Styles */
+
+:root{
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.clearfix{
+    clear: both;
+}
+.small{
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* ==Site-wide | layout */
+
+/* ==Header  */
+header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 6px;
+    align-items: center;
+
+}
+header a{
+    color: rgba(0,0,0,0.87);
+    
+}
+header #sign-in{
+    background: #1a73e8;
+    width: 80px;
+    height: 36px;
+    border: transparent;
+    border-radius: 4px;
+    margin: 0 8px;
+    padding: 10px 15px;
+    color: white;
+    text-align: center;
+   
+}
+header #sign-in:hover{
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+    text-decoration: none;
+    background: #2b7de9;
+}
+header #btn-for-apps{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+header #btn-for-apps:hover{
+    background-color:rgba(60,64,67,0.08);
+   
+}
+header #btn-for-apps svg{
+    fill:  #5f6368;
+}
+
+/* ==Main */
+
+/* ==Footer */
+
+/* ==Key Frames */
+
+/* ==Media Queries */
