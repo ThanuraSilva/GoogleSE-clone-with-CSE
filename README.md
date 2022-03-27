@@ -6,7 +6,7 @@
 
 # Introduction with project objectives
 
-The project output consists of a cloned web interface of Google search engine; it functions as a custom search engine powered by the Google custom search engine service. It is reminded that this project is done for an experiment and educational purpose as enhancing the programming languages of HTML and CSS and that is also the main objective.
+The project output consists of a cloned web interface of Google search engine and it functions as a custom search engine powered by the Google custom search engine service. It is reminded that this project is done for an experiment and educational purpose as enhancing the programming languages of HTML and CSS and that is also the main objective.
 
 ![This is sceens of the application](./img/screen1.png)
 ![This is sceens of the application](./img/screen2.png)
